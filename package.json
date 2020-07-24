@@ -1,7 +1,9 @@
 {
   "name": "@febrihidayan/oruga-nuxtjs",
+  "keywords": ["Vuejs", "Oruga", "Nuxtjs", "Oruga-UI"],
   "version": "0.1.0",
-  "private": true,
+  "author": "Febri Hidayan <febrihidayan20@gmail.com> (http://sekolahprogram.com)",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt-ts build",
@@ -27,5 +29,8 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
